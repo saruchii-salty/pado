@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: "Pretendard Variable", "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+    --pado-ink: #191f28;
+    --pado-bg: #f9fafb;
+  }
+
+  html {
+    font-family: var(--font-sans);
+    background-color: var(--pado-bg);
+    color: var(--pado-ink);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: clip;
+  }
+
+  body {
+    margin: 0;
+    background-color: var(--pado-bg);
+    color: var(--pado-ink);
+    word-break: keep-all;
+    overflow-wrap: break-word;
+    overflow-x: clip;
+  }
+
+  h1, h2, h3 {
+    text-wrap: balance;
+    word-break: keep-all;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.pado-card {
+  background-color: #ffffff;
+  border-radius: 28px;
+  box-shadow: 0 18px 48px -16px rgba(25, 31, 40, 0.08), 0 2px 8px -2px rgba(25, 31, 40, 0.03);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
