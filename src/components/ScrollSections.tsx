@@ -640,11 +640,11 @@ export const ScrollSections: React.FC<ScrollSectionsProps> = ({
               <div className="flex flex-wrap items-center gap-3">
                 <span className="font-bold text-[#191F28]">파도</span>
                 <span aria-hidden="true">·</span>
-                <span>주식회사 파도파이낸스</span>
+                <span>주?식회사 파도파이낸스</span>
                 <span aria-hidden="true">·</span>
-                <span className="tabular-nums">서울특별시 강남구 테헤란로 142</span>
+                <span className="tabular-nums">XX시 XX구 XX로 142</span>
               </div>
-              <p className="tabular-nums">고객센터는 앱 안에서 24시간 열려 있어요</p>
+              <p className="tabular-nums">고객센터같은 건 없어요ㅋ</p>
             </div>
           </footer>
         </div>
